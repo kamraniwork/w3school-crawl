@@ -1,0 +1,27 @@
+{
+    "w3": {
+        "mappings": {
+            "properties": {
+                "description": {
+                    "properties": {
+                        "tag_des": {
+                            "type": "text",
+                            "analyzer": "custom_filtering"
+                        },
+                        "tag_title": {
+                            "type": "text",
+                            "analyzer": "custom_filtering"
+                        }
+                    }
+                },
+                "id": {
+                    "type": "keyword"
+                },
+                "title": {
+                    "type": "text",
+                    "analyzer": "custom_filtering"
+                }
+            }
+        }
+    }
+}
